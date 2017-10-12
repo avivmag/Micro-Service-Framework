@@ -1,5 +1,5 @@
 {
-	"initialStorage": [
+	initialStorage: [
 		{shoeType: "red-boots", amount: 10},
 		{shoeType: "green-flip-flops", amount: 7}
 	],
