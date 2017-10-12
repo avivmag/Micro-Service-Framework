@@ -11,10 +11,8 @@ A detailed description of the framework and the implementation can be found in t
 ## Java Concurrency and Synchronization
 This assignment is a great example for handling threads and the shared memory between them.
 
-Threads can be powerful, yet, very dangerous. When dealing with threads you must always act cautiously.
-```
-In this assignment we've ensured that best performance is always reached through parallelizing threads, all of that while unwanted behavior would never occurs.
-```
+Threads can be powerful yet unpredictable. When dealing with threads, one must always act cautiously.
+In this assignment we've made sure that side effects from parallelizing threads would never occur, all the while trying to reach the best performance available.
 
 We did so by targeting specifically the shared resources and synchronize them so only one thread can manipulate them simultaneously.
 
