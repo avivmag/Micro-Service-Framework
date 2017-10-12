@@ -2,7 +2,7 @@ package bgu.spl.mics;
 
 import java.util.HashMap;
 
-import bgu.spl.mics.impl.MessageBusImpl;
+import bgu.spl.mics.implentation.MessageBusImpl;
 
 /**
  * The MicroService is an abstract class that any micro-service in the system

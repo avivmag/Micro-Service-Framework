@@ -18,11 +18,13 @@ import java.util.logging.SimpleFormatter;
 
 import com.google.gson.Gson;
 
+import bgu.spl.app.helpers.ClassInstanceHolder;
+
 /**
  * The main program which will start all the threads.
  */
 public class ShoeStoreRunner {
-	static Logger logger = Logger.getLogger("MyLog");
+	public static Logger logger = Logger.getLogger("MyLog");
 
 	public static void main(String[] args) {	
 
