@@ -9,7 +9,7 @@ The development of this simulation was done in pairs as part of an assignment in
 A detailed description of the framework and the implementation can be found in the assignment desciption attached - section 2 and 3.
 
 ## Java Concurrency and Synchronization
-This assignment is a great example for handling threads the shared memory between them.
+This assignment is a great example for handling threads and the shared memory between them.
 
 Threads can be powerful, yet, very dangerous. When dealing with threads you must always act cautiously.
 In this assignment we tried our best to ensure best performance is reached with parallelize threads while unwanted behavior would never occurs.
