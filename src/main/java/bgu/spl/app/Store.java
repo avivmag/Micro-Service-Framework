@@ -5,6 +5,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import bgu.spl.app.store_objects.Receipt;
+import bgu.spl.app.store_objects.ShoeStorageInfo;
+
 /**
  * Holds a collections of ShoeStorageInfo and a list if receipts issued by the store.
  */
