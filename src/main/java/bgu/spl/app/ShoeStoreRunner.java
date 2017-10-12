@@ -45,7 +45,7 @@ public class ShoeStoreRunner {
 		FileHandler fh;
 		try {
 			// This block configure the logger with handler and formatter  
-			fh = new FileHandler("../LogFile.log");  
+			fh = new FileHandler("./LogFile.log");  
 			logger.addHandler(fh);
 			fh.setFormatter(new BriefFormatter());
 		} catch (SecurityException e) {  
