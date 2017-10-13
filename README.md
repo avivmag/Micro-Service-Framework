@@ -47,3 +47,21 @@ This structure is composed of the next elements:
 			`name` - name of the customer,</br>
 			`wishList` - contains name of shoe types that the client will buy only when there is a discount on them (and immidiatly when he found out of such discount),</br>
 			`purchaseSchedule` - contains purchases that the client needs to make (every purchase has a corresponding time tick to send the PurchaseRequest).</br>
+
+## Running game
+
+From Terminal/cmd type:
+```
+java -jar path_of_clone/shoe_store.jar
+```
+
+## Built With
+
+* [Maven](https://maven.apache.org/) - Software project management which manage project's build.
+* [Gson](https://github.com/google/gson) - A Java serialization/deserialization library to convert Java Objects into JSON and back.
+
+## Useful links
+
+* The original source of the assignment: TBA.
+* https://en.wikipedia.org/wiki/Thread_(computing)
+* https://en.wikipedia.org/wiki/Callback_(computer_programming)
