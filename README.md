@@ -30,20 +30,20 @@ To run the shoe-store simulation, a json file is needed to be configured.
 The structure of this json file can be seen in the `example.json` file attached.
 This structure is composed of the next elements:
 1. initialStorage: this element holds records for all the available shoes when on the first tick when the store is opened.
-	attributes:
-	`shoeType` - string which declares the type of the shoes,
-	`amount`.
-2. services: declares the services which are running and their attributes.
-	a. time: `speed` - number of milliseconds each clock tick takes,
-			 `duration` - number of ticks before termination.
-	b. manager: `discountSchedule` - an array of discount schedules. every record consists from the following attributes:
-					`shoeType` - string which declares the type of the shoes,
-					`amount` - amount of shoes on sale,
-					`tick` - the tick number in which the sale starts.
-	c. factories: number of factories which are waiting for shoe requests.
-	d. sellers: number of sellers available to server.
-	e. customers: holds customer records. 
-		attributes: 
-			`name` - name of the customer,
-			`wishList` - contains name of shoe types that the client will buy only when there is a discount on them (and immidiatly when he found out of such discount),
-			`purchaseSchedule` - contains purchases that the client needs to make (every purchase has a corresponding time tick to send the PurchaseRequest).
+	attributes:</br>
+	`shoeType` - string which declares the type of the shoes,</br>
+	`amount`.</br>
+2. services: declares the services which are running and their attributes.</br>
+	a. time: `speed` - number of milliseconds each clock tick takes,</br>
+			 `duration` - number of ticks before termination.</br>
+	b. manager: `discountSchedule` - an array of discount schedules. every record consists from the following attributes:</br>
+					`shoeType` - string which declares the type of the shoes,</br>
+					`amount` - amount of shoes on sale,</br>
+					`tick` - the tick number in which the sale starts.</br>
+	c. factories: number of factories which are waiting for shoe requests.</br>
+	d. sellers: number of sellers available to server.</br>
+	e. customers: holds customer records. </br>
+		attributes: </br>
+			`name` - name of the customer,</br>
+			`wishList` - contains name of shoe types that the client will buy only when there is a discount on them (and immidiatly when he found out of such discount),</br>
+			`purchaseSchedule` - contains purchases that the client needs to make (every purchase has a corresponding time tick to send the PurchaseRequest).</br>
