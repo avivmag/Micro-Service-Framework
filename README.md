@@ -27,7 +27,7 @@ for instance - a request for buying shoes has been completed.
 	http://www.oracle.com/technetwork/java/javase/downloads/index.html
 	
 To run the shoe-store simulation, a json file is needed to be configured.
-The structure of this json file can be seen in the `example.json` file attached.
+The structure of this json file can be seen in the `simple_example.json` file attached.
 This structure is composed of the next elements:
 1. initialStorage: this element holds records for all the available shoes when on the first tick when the store is opened.
 	attributes:</br>
@@ -48,12 +48,14 @@ This structure is composed of the next elements:
 			`wishList` - contains name of shoe types that the client will buy only when there is a discount on them (and immidiatly when he found out of such discount),</br>
 			`purchaseSchedule` - contains purchases that the client needs to make (every purchase has a corresponding time tick to send the PurchaseRequest).</br>
 
-## Running game
+## Running shoe store simulation
 
 From Terminal/cmd type:
 ```
 java -jar path_of_clone/shoe_store.jar
 ```
+insert the path of the json and enjoy :).
+Note: be aware that a log file is generated.
 
 ## Built With
 
@@ -62,6 +64,6 @@ java -jar path_of_clone/shoe_store.jar
 
 ## Useful links
 
-* The original source of the assignment: TBA.
+* The original source of the assignment: https://www.cs.bgu.ac.il/~spl161/wiki.files/SPL-Assignment2.pdf.
 * https://en.wikipedia.org/wiki/Thread_(computing)
 * https://en.wikipedia.org/wiki/Callback_(computer_programming)
