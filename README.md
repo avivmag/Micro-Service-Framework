@@ -1,6 +1,6 @@
 # Micro Service Framework
 
-The program is composed of two main parts:
+This program is composed of two main parts:
 1. A simple, yet, powerful micro-service framework.
 2. Implementation of a simple shoe store application on top of the framework.
 
