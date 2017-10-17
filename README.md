@@ -17,7 +17,7 @@ In this assignment we've made sure that side effects from parallelizing threads 
 We also used the 'synchronized-while-wait' mechanism so thread which has no current job will sleep until there is a reason to awake them.
 
 ## Callback
-Another notable mechanism we used is callbacks. We used callbacks when we had chunks of code we wanted to be ran when an event was triggered,
+Another notable mechanism we used is callback. We used callbacks when we had chunks of code we wanted to be ran when an event was triggered,
 for instance - a request for buying shoes has been completed.
 
 ## Getting Started
