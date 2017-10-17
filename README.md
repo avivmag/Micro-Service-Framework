@@ -4,7 +4,7 @@ This program is composed of two main parts:
 1. A simple, yet, powerful micro-service framework.
 2. Implementation of a simple shoe store application on top of the framework.
 
-The development of this simulation was done in pairs as part of an assignment in "Systems Programming" course at Ben-Gurion University in the begining of 2016.
+The development of this simulation was done in pairs as part of an assignment in "Systems Programming" course at Ben-Gurion University in the beginning of 2016.
 
 A detailed description of the framework and the implementation can be found in the assignment desciption attached - section 2 and 3.
 
